@@ -1,0 +1,25 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container button {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s ease-in-out;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+}
