@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Event from "./components/Event";
 
 function App() {
   const [nome, setNome] = useState<string | null>("");
@@ -17,6 +18,9 @@ function App() {
     <div className="container">
       <h1>{nome}</h1>
       <button onClick={mudar}>Alterar Nome</button>
+
+      <hr/><br />
+      <Event/>
     </div>
   );
 }
